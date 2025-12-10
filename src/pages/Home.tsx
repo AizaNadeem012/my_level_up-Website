@@ -162,7 +162,7 @@ const team = [
 
 const stats = [
   { value: "500+", label: "Happy Customers" },
-  { value: "15+", label: "Years Experience" },
+  { value: "75+", label: "Years Experience" },
   { value: "8", label: "Counties Served" },
   { value: "100%", label: "Satisfaction" },
 ];
@@ -376,7 +376,7 @@ const Home = () => {
                   <Shield className="h-4 w-4" /> Licensed • Insured
                 </Badge>
                 <Badge>
-                  <Award className="h-4 w-4" /> 15+ Years Experience
+                  <Award className="h-4 w-4" /> 75+ Years Experience
                 </Badge>
               </div>
 
@@ -602,7 +602,7 @@ const Home = () => {
               <div>
                 <h2 className="text-3xl md:text-4xl font-extrabold mb-6">About Central Florida Level Up</h2>
                 <p className="text-lg text-muted-foreground mb-6">
-                  For over 15 years, we've been Central Florida's trusted partner for manufactured and mobile home services. 
+                  For over 75 years, we've been Central Florida's trusted partner for manufactured and mobile home services. 
                   Our family-owned business combines technical expertise with genuine care for each homeowner's unique situation.
                 </p>
                 <p className="text-lg text-muted-foreground mb-6">
