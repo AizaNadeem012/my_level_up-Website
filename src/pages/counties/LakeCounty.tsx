@@ -108,7 +108,7 @@ const LakeCounty = () => {
   const stats = [
     { value: "950+", label: "Projects Completed" },
     { value: "2008", label: "Year Established" },
-    { value: "15+", label: "Years Experience" },
+    { value: "75+", label: "Years Experience" },
     { value: "5", label: "Star Rating" }
   ];
 
