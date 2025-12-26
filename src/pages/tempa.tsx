@@ -15,7 +15,7 @@ import {
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
-const Tempa = () => {
+const tempa = () => {
   const [counts, setCounts] = useState({ years: 0, anchors: 0, satisfaction: 0 });
 
   useEffect(() => {
@@ -273,4 +273,4 @@ const Tempa = () => {
   )
 }
 
-export default Tempa;
+export default tempa;
