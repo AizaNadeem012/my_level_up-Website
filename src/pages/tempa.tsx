@@ -273,4 +273,4 @@ const Tampa = () => {
   )
 }
 
-export default Tampa;
+export default Tempa;
