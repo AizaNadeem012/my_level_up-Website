@@ -69,6 +69,8 @@ const App = () => (
               {/* 🔒 Hidden Location Routes (SEO Pages) */}
               <Route path="/sanford" element={<Sanford />} />
               <Route path="/orlando" element={<Orlando />} />
+              <Route path="/deltona" element={<Deltona />} />
+              <Route path="/apopka" element={<Apopka />} />
 
               {/* HUD Inspection */}
               <Route
