@@ -22,8 +22,6 @@ import Deltona from "./pages/deltona";
 import Apopka from "./pages/apopka";
 import Tempa from "./pages/tempa";
 
-
-
 // HUD Inspection
 import HudCertifiedInspection from "./pages/hud-inspection";
 
@@ -49,80 +47,82 @@ import ManateeCounty from "./pages/counties/ManateeCounty";
 
 const queryClient = new QueryClient();
 
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <Schema />
+const App: React.FC = () => {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <Schema />
 
-      <BrowserRouter>
-        <div className="flex flex-col min-h-screen">
-          <Header />
+        <BrowserRouter>
+          <div className="flex flex-col min-h-screen">
+            <Header />
 
-          <main className="flex-1">
-            <Routes>
-              {/* Core Routes */}
-              <Route path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/counties" element={<Counties />} />
+            <main className="flex-1">
+              <Routes>
+                {/* Core Routes */}
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="/counties" element={<Counties />} />
 
-              {/* 🔒 Hidden Location Routes (SEO Pages) */}
-              <Route path="/sanford" element={<Sanford />} />
-              <Route path="/orlando" element={<Orlando />} />
-              <Route path="/deltona" element={<Deltona />} />
-              <Route path="/apopka" element={<Apopka />} />
-               <Route path="/tempa" element={<Tempa />} 
+                {/* 🔒 Hidden Location Routes (SEO Pages) */}
+                <Route path="/sanford" element={<Sanford />} />
+                <Route path="/orlando" element={<Orlando />} />
+                <Route path="/deltona" element={<Deltona />} />
+                <Route path="/apopka" element={<Apopka />} />
+                <Route path="/tempa" element={<Tempa />} />
 
-              {/* HUD Inspection */}
-              <Route
-                path="/hud-inspection"
-                element={<HudCertifiedInspection />}
-              />
+                {/* HUD Inspection */}
+                <Route
+                  path="/hud-inspection"
+                  element={<HudCertifiedInspection />}
+                />
 
-              {/* Service Routes */}
-              <Route path="/services/leveling" element={<Leveling />} />
-              <Route
-                path="/services/ground-anchors"
-                element={<GroundAnchors />}
-              />
-              <Route path="/services/tie-down" element={<TieDown />} />
-              <Route path="/services/foundation" element={<Foundation />} />
-              <Route path="/services/skirting" element={<Skirting />} />
-              <Route path="/services/crawl-space" element={<CrawlSpace />} />
-              <Route
-                path="/services/floor-leveling"
-                element={<FloorLeveling />}
-              />
-              <Route
-                path="/services/hurricane-protection"
-                element={<HurricaneProtection />}
-              />
+                {/* Service Routes */}
+                <Route path="/services/leveling" element={<Leveling />} />
+                <Route
+                  path="/services/ground-anchors"
+                  element={<GroundAnchors />}
+                />
+                <Route path="/services/tie-down" element={<TieDown />} />
+                <Route path="/services/foundation" element={<Foundation />} />
+                <Route path="/services/skirting" element={<Skirting />} />
+                <Route path="/services/crawl-space" element={<CrawlSpace />} />
+                <Route
+                  path="/services/floor-leveling"
+                  element={<FloorLeveling />}
+                />
+                <Route
+                  path="/services/hurricane-protection"
+                  element={<HurricaneProtection />}
+                />
 
-              {/* County Routes */}
-              <Route path="/counties/polk" element={<PolkCounty />} />
-              <Route path="/counties/lake" element={<LakeCounty />} />
-              <Route path="/counties/volusia" element={<VolusiaCounty />} />
-              <Route path="/counties/sumter" element={<SumterCounty />} />
-              <Route path="/counties/orange" element={<OrangeCounty />} />
-              <Route
-                path="/counties/hillsborough"
-                element={<HillsboroughCounty />}
-              />
-              <Route path="/counties/osceola" element={<OsceolaCounty />} />
-              <Route path="/counties/manatee" element={<ManateeCounty />} />
+                {/* County Routes */}
+                <Route path="/counties/polk" element={<PolkCounty />} />
+                <Route path="/counties/lake" element={<LakeCounty />} />
+                <Route path="/counties/volusia" element={<VolusiaCounty />} />
+                <Route path="/counties/sumter" element={<SumterCounty />} />
+                <Route path="/counties/orange" element={<OrangeCounty />} />
+                <Route
+                  path="/counties/hillsborough"
+                  element={<HillsboroughCounty />}
+                />
+                <Route path="/counties/osceola" element={<OsceolaCounty />} />
+                <Route path="/counties/manatee" element={<ManateeCounty />} />
 
-              {/* Catch-All (MUST BE LAST) */}
-              <Route path="*" element={<NotFound />} />
-            </Routes>
-          </main>
+                {/* Catch-All */}
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </main>
 
-          <Footer />
-        </div>
-      </BrowserRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
+            <Footer />
+          </div>
+        </BrowserRouter>
+      </TooltipProvider>
+    </QueryClientProvider>
+  );
+};
 
 export default App;
