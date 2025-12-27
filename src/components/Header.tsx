@@ -58,7 +58,7 @@ const Header = () => {
               className="h-10 w-auto object-contain"
             />
             <span className="hidden md:block text-base font-semibold leading-none">
-              Florida Truly Level Mobile Home Service
+              Florida Truly Level <br/> Mobile Home Service
             </span>
           </Link>
 
