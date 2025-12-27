@@ -20,7 +20,7 @@ import Sanford from "./pages/sanford";
 import Orlando from "./pages/orlando";
 import Deltona from "./pages/deltona";
 import Apopka from "./pages/apopka";
-import Tempa from "./pages/tempa";
+
 
 // HUD Inspection
 import HudCertifiedInspection from "./pages/hud-inspection";
@@ -72,7 +72,7 @@ const App: React.FC = () => {
                 <Route path="/orlando" element={<Orlando />} />
                 <Route path="/deltona" element={<Deltona />} />
                 <Route path="/apopka" element={<Apopka />} />
-                <Route path="/tempa" element={<Tempa />} />
+                
 
                 {/* HUD Inspection */}
                 <Route
