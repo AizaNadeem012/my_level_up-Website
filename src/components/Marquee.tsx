@@ -1,15 +1,15 @@
 const Marquee = () => {
   const keywords = [
-    "Mobile Home Leveling",
+    "Florida Truly Level Mobile Home Service",
     "Manufactured Home Anchoring",
-    "Tie-Down Systems",
-    "Foundation Repair",
-    "Skirting Installation",
-    "Crawl Space Stabilization",
-    "Hurricane Protection",
-    "Ground Anchors",
-    "Floor Leveling",
-    "Licensed & Insured",
+    "Florida Truly Level Mobile Home Service Tie-Down Systems",
+    "Florida Truly Level Mobile Home Service Foundation Repair",
+    "Florida Truly Level Mobile Home Service Skirting Installation",
+    "Florida Truly Level Mobile Home Service Crawl Space Stabilization",
+     "Florida Truly Level Mobile Home Service Hurricane Protection",
+    "Florida Truly Level Mobile Home Service Ground Anchors",
+    "Florida Truly Level Mobile Home Service Floor Leveling",
+    "Florida Truly Level Mobile Home Service Licensed & Insured",
   ];
 
   return (
