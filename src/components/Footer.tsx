@@ -33,7 +33,7 @@ const Footer = () => {
                 <span className="text-xl font-bold text-primary-foreground">CF</span>
               </div>
               <span className="text-sm font-bold leading-tight">
-                Florida Truly Level<br />Mobile Home Leveling & Anchoring
+               Florida Truly Level Mobile Home Service
               </span>
             </div>
             <p className="text-sm text-background/80 mb-4">
@@ -163,7 +163,7 @@ const Footer = () => {
         <div className="mt-8 pt-8 border-t border-background/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-background/80">
             <p>
-              © {new Date().getFullYear()}  Florida Central Level Up. All rights reserved.
+              © {new Date().getFullYear()}  Florida Truly Level Mobile Home Service. All rights reserved.
             </p>
             <p className="text-xs">
               Licensed, Insured & Certified Mobile Home Contractors
