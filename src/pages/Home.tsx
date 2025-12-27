@@ -381,7 +381,7 @@ const Home = () => {
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6 drop-shadow-lg">
-              Florida Truly Level Mobile Home Leveling & Anchoring – Central Florida’s Trusted Experts
+              Florida Truly Level Mobile Home Service
               </h1>
 
               <p className="max-w-2xl text-lg md:text-xl opacity-95 mb-8">
@@ -600,7 +600,7 @@ const Home = () => {
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div>
-                <h2 className="text-3xl md:text-4xl font-extrabold mb-6">About Central Florida Level Up</h2>
+                <h2 className="text-3xl md:text-4xl font-extrabold mb-6">About Florida Truly Level Mobile Home Service</h2>
                 <p className="text-lg text-muted-foreground mb-6">
                   For over 10 years, we've been Central Florida's trusted partner for manufactured and mobile home services. 
                   Our family-owned business combines technical expertise with genuine care for each homeowner's unique situation.
