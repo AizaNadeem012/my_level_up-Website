@@ -182,7 +182,7 @@ const About = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-              About Florida Truly Level Mobile Home Leveling & Anchoring
+              About Florida Truly Level Mobile Home Service
             </h1>
             
             <p className="text-xl max-w-3xl mx-auto mb-8 text-white/90">
@@ -247,7 +247,7 @@ const About = () => {
                 <MapPin className="h-8 w-8 text-primary" />
               </div>
               <h3 className="text-xl font-bold text-primary mb-2">DeBary, FL</h3>
-              <div className="text-muted-foreground">Central Florida Based</div>
+              <div className="text-muted-foreground">Florida Truly Level Mobile Home Service Based</div>
             </Card>
           </div>
         </div>
@@ -288,7 +288,7 @@ const About = () => {
           <div>
             <h2 className="text-3xl font-bold mb-6">Your Mobile Home Service Experts</h2>
             <p className="text-lg text-muted-foreground mb-6">
-              Central Florida Level Up specializes in comprehensive mobile and manufactured home services across Central Florida. With years of experience and a commitment to excellence, we provide professional leveling, anchoring, foundation repair, and more.
+              Florida Truly Level Mobile Home Service specializes in comprehensive mobile and manufactured home services across Central Florida. With years of experience and a commitment to excellence, we provide professional leveling, anchoring, foundation repair, and more.
             </p>
             <p className="text-lg text-muted-foreground mb-6">
               Our team of licensed and insured contractors understands the unique needs of mobile homes. From ground anchor installation to complete releveling services, we ensure your home is safe, stable, and compliant with Florida building codes.
@@ -363,7 +363,7 @@ const About = () => {
       {/* Services Overview */}
       <section className="section-container py-20">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold mb-4">Comprehensive Mobile Home Services</h2>
+          <h2 className="text-3xl font-bold mb-4">Comprehensive Florida Truly Level Mobile Home Service</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Complete solutions for all your mobile home needs
           </p>
